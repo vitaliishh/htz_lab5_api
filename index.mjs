@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/', (_, res) => {
-  res.send('----0000HHHHHEEEEHello from the time saving service!!!!')
+  res.send('--0000HHHHHEEEEHello from the time saving service!!!!')
 })
 
 app.get('/times', async (_, res) => {
